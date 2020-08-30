@@ -1,18 +1,18 @@
 # Aur4
 
-This project is mostly learning purposes.
+This project is for learning purposes.
 
 # Rationale:
 
-The binary check for status of a given systemd unity and print it.
-(right now everything is hardcoded :) even the unit-name )
+Check the status of systemd service unity, printing it on command line
+(right now everything is hardcoded  even the unit-name )
 
-It might change its shape or not at all.
 
 # Dependencies:
 
 dbus-library:
-`systemd-devel`  (`zypper in systemd-devel`)
+
+- `systemd-devel`  (`zypper in systemd-devel`)
 
 
 # Material:
