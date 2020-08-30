@@ -18,7 +18,9 @@ int main(int argc, char *argv[]) {
                 fprintf(stderr, "Failed to connect to system bus: %s\n", strerror(-r));
                 goto finish;
         }
-
+	
+	// get for given servie the property ActiveState
+	// to discover more use busctl 
         r = sd_bus_get_property_string(bus,
         "org.freedesktop.systemd1",          
         service,  
